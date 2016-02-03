@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A9E74431C62819E003027FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9E74421C62819E003027FE /* main.m */; };
+		4A9E74461C62819E003027FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9E74451C62819E003027FE /* AppDelegate.m */; };
+		4A9E74491C62819E003027FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9E74481C62819E003027FE /* ViewController.m */; };
+		4A9E744C1C62819E003027FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9E744A1C62819E003027FE /* Main.storyboard */; };
+		4A9E744E1C62819E003027FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9E744D1C62819E003027FE /* Assets.xcassets */; };
+		4A9E74511C62819E003027FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9E744F1C62819E003027FE /* LaunchScreen.storyboard */; };
+		4A9E74591C628279003027FE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9E74581C628279003027FE /* MobileCoreServices.framework */; };
+		4A9E745B1C6282DF003027FE /* myPDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A9E745A1C6282DF003027FE /* myPDF.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A9E743E1C62819E003027FE /* BreakMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9E74421C62819E003027FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A9E74441C62819E003027FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A9E74451C62819E003027FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A9E74471C62819E003027FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A9E74481C62819E003027FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A9E744B1C62819E003027FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A9E744D1C62819E003027FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A9E74501C62819E003027FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A9E74521C62819E003027FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A9E74581C628279003027FE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4A9E745A1C6282DF003027FE /* myPDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = myPDF.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A9E743B1C62819E003027FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9E74591C628279003027FE /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A9E74351C62819E003027FE = {
+			isa = PBXGroup;
+			children = (
+				4A9E74581C628279003027FE /* MobileCoreServices.framework */,
+				4A9E74401C62819E003027FE /* BreakMail */,
+				4A9E743F1C62819E003027FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A9E743F1C62819E003027FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A9E743E1C62819E003027FE /* BreakMail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A9E74401C62819E003027FE /* BreakMail */ = {
+			isa = PBXGroup;
+			children = (
+				4A9E745A1C6282DF003027FE /* myPDF.pdf */,
+				4A9E74441C62819E003027FE /* AppDelegate.h */,
+				4A9E74451C62819E003027FE /* AppDelegate.m */,
+				4A9E74471C62819E003027FE /* ViewController.h */,
+				4A9E74481C62819E003027FE /* ViewController.m */,
+				4A9E744A1C62819E003027FE /* Main.storyboard */,
+				4A9E744D1C62819E003027FE /* Assets.xcassets */,
+				4A9E744F1C62819E003027FE /* LaunchScreen.storyboard */,
+				4A9E74521C62819E003027FE /* Info.plist */,
+				4A9E74411C62819E003027FE /* Supporting Files */,
+			);
+			path = BreakMail;
+			sourceTree = "<group>";
+		};
+		4A9E74411C62819E003027FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A9E74421C62819E003027FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A9E743D1C62819E003027FE /* BreakMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A9E74551C62819E003027FE /* Build configuration list for PBXNativeTarget "BreakMail" */;
+			buildPhases = (
+				4A9E743A1C62819E003027FE /* Sources */,
+				4A9E743B1C62819E003027FE /* Frameworks */,
+				4A9E743C1C62819E003027FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreakMail;
+			productName = BreakMail;
+			productReference = 4A9E743E1C62819E003027FE /* BreakMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A9E74361C62819E003027FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Brown Bird Labs, LLC";
+				TargetAttributes = {
+					4A9E743D1C62819E003027FE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 4A9E74391C62819E003027FE /* Build configuration list for PBXProject "BreakMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A9E74351C62819E003027FE;
+			productRefGroup = 4A9E743F1C62819E003027FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A9E743D1C62819E003027FE /* BreakMail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A9E743C1C62819E003027FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9E74511C62819E003027FE /* LaunchScreen.storyboard in Resources */,
+				4A9E745B1C6282DF003027FE /* myPDF.pdf in Resources */,
+				4A9E744E1C62819E003027FE /* Assets.xcassets in Resources */,
+				4A9E744C1C62819E003027FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A9E743A1C62819E003027FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9E74491C62819E003027FE /* ViewController.m in Sources */,
+				4A9E74461C62819E003027FE /* AppDelegate.m in Sources */,
+				4A9E74431C62819E003027FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A9E744A1C62819E003027FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A9E744B1C62819E003027FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A9E744F1C62819E003027FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A9E74501C62819E003027FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A9E74531C62819E003027FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4A9E74541C62819E003027FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A9E74561C62819E003027FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BreakMail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brownbirdlabs.BreakMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A9E74571C62819E003027FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BreakMail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brownbirdlabs.BreakMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A9E74391C62819E003027FE /* Build configuration list for PBXProject "BreakMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A9E74531C62819E003027FE /* Debug */,
+				4A9E74541C62819E003027FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A9E74551C62819E003027FE /* Build configuration list for PBXNativeTarget "BreakMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A9E74561C62819E003027FE /* Debug */,
+				4A9E74571C62819E003027FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A9E74361C62819E003027FE /* Project object */;
+}
