@@ -12,9 +12,21 @@
 
 @property (nonatomic, strong) MFMailComposeViewController *mailController;
 
+@property (nonatomic, strong) NSArray *hugeThings;
+
 @end
 
 @implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    NSMutableArray *ary = [NSMutableArray array];
+    for (int i = 0; i < 50; i++) {
+        [ary addObject:[self loadFileAsData]];
+    }
+
+    self.hugeThings = ary;
+}
 
 - (IBAction)go:(id)sender {
     NSData *fileData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"myPDF.pdf" ofType:nil]];
